@@ -1,0 +1,116 @@
+/* Navigation styles */
+.logo {
+    background-color: #fff;
+    height: 230px;
+    background-image: url(../images/jakes-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left, .right, .center {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.left button {
+    background-color: skyblue;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.right button {
+    background-color: yellow;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+/* Column styles */
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 1200px;
+    width: 800px;
+}
+
+.meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+.meal1 {
+    background-image: url(../images/steak.png);
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meal2 {
+    background-image: url(../images/soup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.meal3 {
+    background-image: url(../images/cheesecake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.fb {
+color: skyblue;
+text-decoration: none;
+margin-left: 100px;
+}
+
+.tw {
+    color: yellow;
+    text-decoration: none;
+}
+
+.ig {
+    color: red;
+    text-decoration: none;
+    margin-right: 100px;
+}
